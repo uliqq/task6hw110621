@@ -4,6 +4,10 @@ public class Magical extends Player{
 
     private String spell;
 
+    public void freezing () {
+        System.out.println("Crystal Maiden freezes Titan, disabling him for abilities!");
+    }
+
     public Magical() {
 
     }

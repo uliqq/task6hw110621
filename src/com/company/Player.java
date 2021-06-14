@@ -6,6 +6,13 @@ public class Player {
         private int health;
         private int damage;
 
+        public void heroDamageDeal () {
+            System.out.println("Damages Boss!");
+        }
+        public void bossDamageDeal () {
+            System.out.println("Damages all heroes!");
+        }
+
         public Player() {
 
         }

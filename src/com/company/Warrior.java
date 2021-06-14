@@ -4,6 +4,10 @@ public class Warrior extends Player{
 
     private String attackType;
 
+    public void rage () {
+        System.out.println("Troll Warlord's rage attack mode is on!");
+    }
+
     public Warrior() {
 
     }

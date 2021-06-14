@@ -4,6 +4,10 @@ public class Boss extends Player {
 
     private String defenceType;
 
+    public void stunning () {
+        System.out.println("Titan stuns a random hero!");
+    }
+
     public Boss() {
 
     }

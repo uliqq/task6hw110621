@@ -4,6 +4,10 @@ public class Mental extends Player{
 
     private String ability;
 
+    public void telekinesis () {
+        System.out.println("Oracle raises up Titan and throws him down, stunning him!");
+    }
+
     public Mental() {
 
     }
